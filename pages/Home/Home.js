@@ -2,6 +2,7 @@
 import * as elements from 'typed-html';
 import { GameTile } from '../../components/GameTile';
 import { NavBar } from '../../components/NavBar';
+import { BasePage } from '../../components/BasePage';
 
 
 const gameList = [
@@ -29,13 +30,11 @@ const gameList = [
 
 
 export const Home = (props) => {
-    return <div class='Homepage'>
-        <NavBar/>
+    return <BasePage>
         <div class='GameList'>
         {
             gameList.map(elm=><GameTile {...elm}/>)
         }
         </div>
-        <link rel="stylesheet" href="public/home.css"/>
-    </div>
+    </BasePage>
 }
