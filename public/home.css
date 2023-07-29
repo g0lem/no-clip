@@ -55,6 +55,7 @@ body {
 .Homepage .GameList .GameTile img{
     width: 300px;
     height: 200px;
+    object-fit: cover;
 }
 
 .Homepage .NavBar {
@@ -73,5 +74,6 @@ body {
 .Homepage .NavBar .NavBarItem {
     color: var(--highlight);
     font-weight: 700;
+    font-size: 1em;
 }
 
