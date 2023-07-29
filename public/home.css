@@ -37,9 +37,11 @@ body {
     align-items: center;
     gap: 5px;
     border-style: dashed;
-    border-color: var(--highlight);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-color: var(--grey);
 
-    background: var(--grey);
+    background: var(--black);
 }
 
 .Homepage .GameList .GameTile a{
@@ -62,11 +64,14 @@ body {
     gap: 10px;
     width: 95vw;
     padding-left: 5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     background: var(--black);
 }
 
 .Homepage .NavBar .NavBarItem {
-    color: var(--highlight)
+    color: var(--highlight);
+    font-weight: 700;
 }
 
