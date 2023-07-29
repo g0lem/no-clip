@@ -6,9 +6,11 @@ export const NavBar = ({}) => {
     return (
         <div class="NavBar">
             <Logo/>
+            <div class='VerticalDivider'/>
             <div class='NavBarItem'>
                 Test
             </div>
+            <div class='VerticalDivider'/>
         </div>
     )
 }
