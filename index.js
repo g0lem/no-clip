@@ -1,6 +1,8 @@
 import { Elysia } from 'elysia';
 import { html } from '@elysiajs/html';
 import * as elements from 'typed-html';
+import { staticPlugin } from '@elysiajs/static'
+
 import { Game2048 } from './pages/2048/Game2048';
 import { ClumsyBird } from './pages/ClumsyBird/ClumsyBird';
 import { Hextris } from './pages/Hextris/Hextris';
@@ -12,6 +14,8 @@ const port = 8080;
 
 const app = new Elysia()
     .use(html())
+    .use(staticPlugin())
+    .get('/favicon.ico', () => Bun.file('public/favicon.ico'))
     .get('/', ({html})=> html(<Home/>))
     .get('/2048', ({html}) => html(<Game2048/>))
     .get('/clumsy-bird', ({html}) => html(<ClumsyBird/>))

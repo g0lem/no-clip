@@ -1,0 +1,19 @@
+.Logo {
+    display: flex;
+    gap: 2px;
+
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.Logo .LogoNo {
+    color: var(--highlight);
+}
+
+.Logo .LogoDash {
+    color: white;
+}
+
+.Logo .LogoClip {
+    color: var(--link);
+}

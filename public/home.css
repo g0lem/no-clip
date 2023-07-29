@@ -1,0 +1,83 @@
+:root {
+    --link: #E7AB79;
+    --highlight: #B25068;
+    --grey: #774360;
+    --black: #4C3A51;
+    --blackest: #1B2430;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--blackest);
+}
+
+.Homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage .GameList {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-basis: max-content;
+    margin-top: 2em;
+}
+
+.Homepage .GameList .GameTile {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-style: dashed;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-color: var(--grey);
+
+    background: var(--black);
+}
+
+.Homepage .GameList .GameTile a{
+    color: var(--link);
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.Homepage .GameList .GameTile img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Homepage .NavBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 95vw;
+    padding-left: 5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: var(--black);
+}
+
+.Homepage .NavBar .NavBarItem {
+    color: var(--highlight);
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.Homepage .NavBar .VerticalDivider {
+    border-left: 2px dashed var(--highlight);
+    height: 1.5em;
+}
