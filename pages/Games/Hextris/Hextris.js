@@ -1,7 +1,7 @@
 //https://hextris.io/
 
 import * as elements from 'typed-html';
-import { Game } from '../../components/Game';
+import { Game } from '../../../components/Game';
 
 
 

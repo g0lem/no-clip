@@ -1,7 +1,7 @@
 //https://www.fciv.net/
 
 import * as elements from 'typed-html';
-import { Game } from '../../components/Game';
+import { Game } from '../../../components/Game';
 
 
 

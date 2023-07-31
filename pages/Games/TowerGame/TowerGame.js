@@ -1,6 +1,6 @@
 //https://www.edopedia.com/demo/last-colony/
 import * as elements from 'typed-html';
-import { Game } from '../../components/Game';
+import { Game } from '../../../components/Game';
 
 
 

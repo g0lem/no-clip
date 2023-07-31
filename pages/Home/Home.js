@@ -43,6 +43,28 @@ const gameList = [
         path: '/tower-game',
         imagePreview: 'https://d3frsattnbx5l6.cloudfront.net/1539284406589-towergame1.png'
     },
+    {
+        name: 'Infinite Mario',
+        path: '/infinite-mario',
+        imagePreview: 'https://d3frsattnbx5l6.cloudfront.net/1539284406589-towergame1.png'
+    },
+    {
+        name: 'Duck Hunt',
+        path: '/duck-hunt',
+        imagePreview: 'https://d3frsattnbx5l6.cloudfront.net/1539284406589-towergame1.png'
+    },
+
+    {
+        name: 'Space Block Invaders',
+        path: '/space-block-invaders',
+        imagePreview: 'https://js13kgames.com/games/space-block-invaders/__big.jpg'
+    },
+
+    {
+        name: 'Q1K3',
+        path: '/q1k3',
+        imagePreview: 'https://js13kgames.com/games/q1k3/__big.jpg'
+    },
 
 ]
 
