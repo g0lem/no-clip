@@ -26,6 +26,24 @@ const gameList = [
         path: '/astray',
         imagePreview: 'https://superdevresources.com/wp-content/uploads/2014/09/astray-webgl-maze-game-open-source.jpg'
     },
+    {
+        name: 'Free Civ',
+        path: '/free-civ',
+        imagePreview: 'https://superdevresources.com/wp-content/uploads/2014/09/freeciv-web-screenshot.jpg'
+    },
+
+    {
+        name: 'Ancient Beast',
+        path: '/ancient-beast',
+        imagePreview: 'https://superdevresources.com/wp-content/uploads/2014/09/freeciv-web-screenshot.jpg'
+    },
+
+    {
+        name: 'Tower Game',
+        path: '/tower-game',
+        imagePreview: 'https://d3frsattnbx5l6.cloudfront.net/1539284406589-towergame1.png'
+    },
+
 ]
 
 

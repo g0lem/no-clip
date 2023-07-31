@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
+
 :root {
     --link: #E7AB79;
     --highlight: #B25068;
@@ -10,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     background: var(--blackest);
+    font-family: 'Ubuntu mono', sans-serif;
 }
 
 .Homepage {

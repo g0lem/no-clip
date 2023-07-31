@@ -8,6 +8,9 @@ import { ClumsyBird } from './pages/ClumsyBird/ClumsyBird';
 import { Hextris } from './pages/Hextris/Hextris';
 import { Astray } from './pages/Astray/Astray';
 import { Home } from './pages/Home/Home';
+import { FreeCiv } from './pages/FreeCiv/FreeCiv';
+import { AncientBeast } from './pages/AncientBeast/AncientBeast';
+import { TowerGame } from './pages/LastColony/LastColony';
 
 
 const port = 8080;
@@ -21,6 +24,9 @@ const app = new Elysia()
     .get('/clumsy-bird', ({html}) => html(<ClumsyBird/>))
     .get('/hextris', ({html}) => html(<Hextris/>))
     .get('/astray', ({html}) => html(<Astray/>))
+    .get('/free-civ', ({html}) => html(<FreeCiv/>))
+    .get('/ancient-beast', ({html}) => html(<AncientBeast/>))
+    .get('/tower-game', ({html}) => html(<TowerGame/>))
     .listen(port)
 
-console.log(`listening on port: ${port}`)
+console.log(`listening on port: http://localhost:${port}`)
