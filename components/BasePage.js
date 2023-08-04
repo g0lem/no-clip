@@ -8,6 +8,6 @@ export const BasePage = ({children}) => {
     return <div class='Homepage'>
     <NavBar/>
     {children}
-    <link rel="stylesheet" href="public/home.css"/>
+    <link rel="stylesheet" href="/public/home.css"/>
 </div>
 }

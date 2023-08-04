@@ -8,9 +8,18 @@ export const NavBar = ({}) => {
             <Logo/>
             <div class='VerticalDivider'/>
             <div class='NavBarItem'>
-                Test
+                <a href="/category/action">Action</a>
             </div>
             <div class='VerticalDivider'/>
+            <div class='NavBarItem'>
+            <a href="/category/adventure">Adventure</a>
+            </div>
+            <div class='VerticalDivider'/>
+            <div class='NavBarItem'>
+            <a href="/category/casual">Casual</a>
+            </div>
+            <div class='VerticalDivider'/>
+            <link rel="stylesheet" href="/public/logo.css"/>
         </div>
     )
 }

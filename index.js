@@ -5,6 +5,7 @@ import { staticPlugin } from '@elysiajs/static'
 import { Home } from './pages/Home/Home';
 import { ExternalGamesDB } from './constants/MockGameDB';
 import { Game } from './components/Game';
+import { ActionCategory, AdventureCategory, CasualCategory } from './pages/Category/Category';
 
 
 const port = 8080;
@@ -14,6 +15,9 @@ const app = new Elysia()
     .use(staticPlugin())
     .get('/favicon.ico', () => Bun.file('public/favicon.ico'))
     .get('/', ({html})=> html(<Home/>))
+    .get('/category/action', ({html})=> html(<ActionCategory/>))
+    .get('/category/adventure', ({html})=> html(<AdventureCategory/>))
+    .get('/category/casual', ({html})=> html(<CasualCategory/>))
 
 ExternalGamesDB.forEach(elm=>{
     const {
