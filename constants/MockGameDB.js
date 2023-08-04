@@ -24,6 +24,25 @@ export const GameDescriptions = {
         The game saves progress automatically, you can come back later and continue from the last played level.
     `,
 
+    TheLastSpartan: `
+        Cut your enemies to pieces and defend your homeland! Can you, the last Spartan Hoplite of your battalion, earn an honorable death across thousands of procedurally generated battlefields?
+
+        An arcade hack n' slash survival game set in ancient Sparta, 404 B.C.
+
+        Use your spartan charge and ground pound attacks to stun your enemies and gain the upper hand.
+    `,
+
+    TheChromaIncident: `
+        The Achromats have taken the worlds color offline! Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse. Huge thanks to Herebefrogs for naming the game!
+    `,
+
+    DwarvesThereAndBackAgain: `
+        Dwarfs: There and Back Again is a tale of high adventure, undertaken by a company of dwarfs, in search of dragon-guarded gold, true friendship, and varieties of ale (not necessarily in that order).
+
+        If you could go back in time, would you change things for the better? Would you resist temptation that drives your life choices? Do we create our own destiny? Those are all questions.
+
+        The game is heavily inspired by other games. (Aren't we all.)
+    `
 }
 
 
@@ -85,6 +104,14 @@ export const ExternalGamesDB = [
         visibilityRating: VisibilityRatings.LOW,
     },
     {
+        name: 'Q1K3',
+        path: '/q1k3',
+        src: 'https://js13kgames.com/games/q1k3/index.html',
+        categories: [GameCategories.Action],
+        imagePreview: 'https://js13kgames.com/games/q1k3/__big.jpg',
+        visibilityRating: VisibilityRatings.HIGH,
+    },
+    {
         name: 'Duck Hunt',
         path: '/duck-hunt',
         src: 'https://duckhuntjs.com/',
@@ -100,14 +127,13 @@ export const ExternalGamesDB = [
         imagePreview: 'https://js13kgames.com/games/space-block-invaders/__big.jpg',
         visibilityRating: VisibilityRatings.MEDIUM,
     },
-
     {
-        name: 'Q1K3',
-        path: '/q1k3',
-        src: 'https://js13kgames.com/games/q1k3/index.html',
-        categories: [GameCategories.Action],
-        imagePreview: 'https://js13kgames.com/games/q1k3/__big.jpg',
-        visibilityRating: VisibilityRatings.FEATURED,
+        name: 'Spacecraft',
+        path: '/spacecraft',
+        src: 'https://js13kgames.com/games/spacecraft/index.html',
+        categories: [GameCategories.Casual],
+        imagePreview: 'https://js13kgames.com/games/spacecraft/__big.jpg',
+        visibilityRating: VisibilityRatings.MEDIUM,
     },
     {
         name: 'Minipunk',
@@ -120,18 +146,11 @@ export const ExternalGamesDB = [
     {
         name: 'Dwarfs: There and Back Again',
         path: '/dwarfs-there-and-back-again',
+        description: GameDescriptions.DwarvesThereAndBackAgain,
         categories: [GameCategories.Adventure],
         src: 'https://js13kgames.com/games/dwarfs-there-and-back-again/index.html',
         imagePreview: 'https://js13kgames.com/games/dwarfs-there-and-back-again/__big.jpg',
         visibilityRating: VisibilityRatings.FEATURED,
-    },
-    {
-        name: 'Swagshot',
-        path: '/swagshot',
-        src: 'https://js13kgames.com/games/swagshot/index.html',
-        categories: [GameCategories.Action],
-        imagePreview: 'https://js13kgames.com/games/swagshot/__big.jpg',
-        visibilityRating: VisibilityRatings.HIGH,
     },
     {
         name: 'Highway 404',
@@ -166,14 +185,6 @@ export const ExternalGamesDB = [
         visibilityRating: VisibilityRatings.MEDIUM,
     },
     {
-        name: 'Spacecraft',
-        path: '/spacecraft',
-        src: 'https://js13kgames.com/games/spacecraft/index.html',
-        categories: [GameCategories.Casual],
-        imagePreview: 'https://js13kgames.com/games/spacecraft/__big.jpg',
-        visibilityRating: VisibilityRatings.MEDIUM,
-    },
-    {
         name: 'Re-wire',
         path: '/re-wire',
         description: GameDescriptions.ReWire,
@@ -185,6 +196,7 @@ export const ExternalGamesDB = [
     {
         name: 'The Chroma Incident',
         path: '/the-chroma-incident',
+        description: GameDescriptions.TheChromaIncident,
         src: 'https://js13kgames.com/games/the-chroma-incident/index.html',
         categories: [GameCategories.Adventure],
         imagePreview: 'https://js13kgames.com/games/the-chroma-incident/__big.jpg',
@@ -214,11 +226,19 @@ export const ExternalGamesDB = [
         imagePreview: 'https://js13kgames.com/games/wander/__big.jpg',
         visibilityRating: VisibilityRatings.HIGH,
     },
-
+    {
+        name: 'Swagshot',
+        path: '/swagshot',
+        src: 'https://js13kgames.com/games/swagshot/index.html',
+        categories: [GameCategories.Action],
+        imagePreview: 'https://js13kgames.com/games/swagshot/__big.jpg',
+        visibilityRating: VisibilityRatings.HIGH,
+    },
     {
         name: 'The Last Spartan',
         path: '/the-last-spartan',
         src: 'https://js13kgames.com/games/the-last-spartan/index.html',
+        description: GameDescriptions.TheLastSpartan,
         categories: [GameCategories.Action],
         imagePreview: 'https://github.com/ferronsays/js13k-TheLastSpartan/raw/master/media/logo_large_enlarged.png',
         visibilityRating: VisibilityRatings.FEATURED,

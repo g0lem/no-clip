@@ -13,6 +13,11 @@ export const FeaturedGameTile = ({name, path, imagePreview, description}) => {
                 <p>
                     {description}
                 </p>
+                <a href={path}>
+                    <div class="PlayButton">
+                        Play
+                    </div>
+                </a>
             </div>
         </div>
     )

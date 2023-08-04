@@ -92,6 +92,7 @@ body {
     width: 600px;
     max-width: 60vw;
     object-fit: cover;
+    image-rendering: pixelated;
 }
 
 .Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer {
@@ -101,6 +102,31 @@ body {
     width: 40%;
     flex-direction: column;
     margin-left: 20px;
+}
+
+.Homepage .GameList .FeaturedGameTile .PlayButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.75em;
+
+    border: 3px dashed var(--highlight);
+
+    padding: 20px;
+
+    color: var(--highlight);
+    width: 40%;
+    flex-direction: column;
+}
+
+.Homepage .GameList .FeaturedGameTile .PlayButton:hover {
+
+    color: var(--blackest);
+
+    border: 3px dashed var(--blackest);
+
+    background-color: var(--highlight);
 }
 
 
