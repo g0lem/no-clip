@@ -1,7 +1,7 @@
 export const GameCategories = {
-    Casual: 'casual',
-    Adventure: 'adventure',
-    Action: 'action',
+    Casual: 'Casual',
+    Adventure: 'Adventure',
+    Action: 'Action',
 }
 
 export const VisibilityRatings = {
@@ -16,7 +16,7 @@ export const VisibilityRatings = {
 export const GameDescriptions = {
     ReWire: `
         Bring the system back online by rewiring the power nodes.
-
+h
         Drag the cable around the power nodes and plug it into the socket!
         * Avoid the blades!
         * You can cross other cables by using isolators.
@@ -104,14 +104,6 @@ export const ExternalGamesDB = [
         visibilityRating: VisibilityRatings.LOW,
     },
     {
-        name: 'Q1K3',
-        path: '/q1k3',
-        src: 'https://js13kgames.com/games/q1k3/index.html',
-        categories: [GameCategories.Action],
-        imagePreview: 'https://js13kgames.com/games/q1k3/__big.jpg',
-        visibilityRating: VisibilityRatings.HIGH,
-    },
-    {
         name: 'Duck Hunt',
         path: '/duck-hunt',
         src: 'https://duckhuntjs.com/',
@@ -136,14 +128,6 @@ export const ExternalGamesDB = [
         visibilityRating: VisibilityRatings.MEDIUM,
     },
     {
-        name: 'Minipunk',
-        path: '/minipunk',
-        src: 'https://js13kgames.com/games/minipunk/index.html',
-        categories: [GameCategories.Action],
-        imagePreview: 'https://camo.githubusercontent.com/66d8476224605b9ee47de5ab604f7d735e725ad3c51581bdf191b5eb75e5f119/68747470733a2f2f636f64792e6562626572736f6e2e636f6d2f6d696e6970756e6b2f73637265656e73686f74732f70726f6367656e2d73637265656e73686f742e6a7067',
-        visibilityRating: VisibilityRatings.MEDIUM,
-    },
-    {
         name: 'Dwarfs: There and Back Again',
         path: '/dwarfs-there-and-back-again',
         description: GameDescriptions.DwarvesThereAndBackAgain,
@@ -152,12 +136,28 @@ export const ExternalGamesDB = [
         imagePreview: 'https://js13kgames.com/games/dwarfs-there-and-back-again/__big.jpg',
         visibilityRating: VisibilityRatings.FEATURED,
     },
+    // {
+    //     name: 'Highway 404',
+    //     path: '/highway-404',
+    //     src: 'https://js13kgames.com/games/highway-404/index.html',
+    //     categories: [GameCategories.Casual],
+    //     imagePreview: 'https://js13kgames.com/games/highway-404/__big.jpg',
+    //     visibilityRating: VisibilityRatings.MEDIUM,
+    // },
     {
-        name: 'Highway 404',
-        path: '/highway-404',
-        src: 'https://js13kgames.com/games/highway-404/index.html',
-        categories: [GameCategories.Casual],
-        imagePreview: 'https://js13kgames.com/games/highway-404/__big.jpg',
+        name: 'Q1K3',
+        path: '/q1k3',
+        src: 'https://js13kgames.com/games/q1k3/index.html',
+        categories: [GameCategories.Action],
+        imagePreview: 'https://js13kgames.com/games/q1k3/__big.jpg',
+        visibilityRating: VisibilityRatings.HIGH,
+    },
+    {
+        name: 'Minipunk',
+        path: '/minipunk',
+        src: 'https://js13kgames.com/games/minipunk/index.html',
+        categories: [GameCategories.Action],
+        imagePreview: 'https://camo.githubusercontent.com/66d8476224605b9ee47de5ab604f7d735e725ad3c51581bdf191b5eb75e5f119/68747470733a2f2f636f64792e6562626572736f6e2e636f6d2f6d696e6970756e6b2f73637265656e73686f74732f70726f6367656e2d73637265656e73686f742e6a7067',
         visibilityRating: VisibilityRatings.MEDIUM,
     },
     {

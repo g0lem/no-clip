@@ -10,7 +10,13 @@ export const Category = (props) => {
         {
             ExternalGamesDB.filter(props.gameFilterFunction).map(elm=><GameTile {...elm}/>)
         }
+        <div>
+            <h1>{props.category}</h1>
+            <div class="DashedSeparator"></div>
         </div>
+
+        </div>
+        <link rel="stylesheet" href="/public/game.css"/>
     </BasePage>
 }
 
@@ -22,6 +28,6 @@ const isAdventure = (elm) => hasCategory(elm, GameCategories.Adventure);
 const isAction = (elm) => hasCategory(elm, GameCategories.Action);
 
 
-export const CasualCategory = (props) => <Category {...props} gameFilterFunction={isCasual}/> 
-export const AdventureCategory = (props) => <Category {...props} gameFilterFunction={isAdventure}/> 
-export const ActionCategory = (props) => <Category {...props} gameFilterFunction={isAction}/> 
+export const CasualCategory = (props) => <Category {...props} gameFilterFunction={isCasual} category={GameCategories.Casual}/> 
+export const AdventureCategory = (props) => <Category {...props} gameFilterFunction={isAdventure} category={GameCategories.Adventure}/> 
+export const ActionCategory = (props) => <Category {...props} gameFilterFunction={isAction} category={GameCategories.Action}/> 
