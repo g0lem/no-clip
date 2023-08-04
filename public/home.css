@@ -47,6 +47,39 @@ body {
     background: var(--black);
 }
 
+
+.Homepage .GameList .FeaturedGameTile {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    border-style: dashed;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-color: var(--link);
+
+    width: 100%;
+/* 
+    border-left: 0;
+    border-right: 0; */
+
+    padding: 50px;
+
+    background: var(--blackest);
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Homepage .GameList .FeaturedGameTile a{
+    color: var(--link);
+    text-decoration: none;
+
+    font-size: 4em;
+}
+
+
 .Homepage .GameList .GameTile a{
     color: var(--link);
     text-decoration: none;
@@ -55,6 +88,32 @@ body {
     text-align: center;
 }
 
+.Homepage .GameList .FeaturedGameTile img{
+    width: 600px;
+    max-width: 60vw;
+    object-fit: cover;
+}
+
+.Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer {
+    display: flex;
+
+    color: var(--highlight);
+    width: 40%;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer .DashedSeparator {
+    width: 100%;
+
+    max-width: 40vw;
+
+    border-bottom: 3px dashed var(--link);
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .Homepage .GameList .GameTile img{
     width: 300px;
     height: 200px;
