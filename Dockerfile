@@ -1,4 +1,4 @@
-FROM nwylynko/bun:0.2.0-alpine
+FROM nwylynko/bun:0.2.0-ubuntu
 
 # copy over codebase
 COPY . .
@@ -10,4 +10,5 @@ RUN bun install
 RUN bun bun ./index.js
 
 # start the service
+CMD ["bun", "install"]
 CMD ["bun", "run", "./index.js"]
