@@ -18,6 +18,7 @@ export const BasePage = ({children}) => {
                 <meta property="og:type" content="website:game" />
                 <meta property="og:url" content="https://no-clip.io/" />
                 <meta property="og:image" content="https://no-clip.io/public/preview.png" />
+                <meta property="og:description" content="Reproducing flash era nostalgia with new and improved technology since 2023"/>
             </head>
             
             <body>
