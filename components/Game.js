@@ -9,7 +9,7 @@ export const Game = (props) => {
         <h1>{props.title}</h1>
         <div class="DashedSeparator"></div>
         <div class='GameContainer'>
-            <iframe src={props.src} title={props.title} id="gameIframe"></iframe>
+            <iframe src={props.src} title={props.title} id="gameIframe" scrolling="no" ></iframe>
             <div class="GameButtonsContainer">
                 <img width='25' height='25' src="public/arrows-left-right-solid.svg" id="theatreMode"/>
                 <img width='25' height='25' src="public/expand-solid.svg" id="maximizeGame"/>

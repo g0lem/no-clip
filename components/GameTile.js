@@ -1,13 +1,15 @@
 import * as elements from 'typed-html';
+import { VisibilityRatings } from '../constants/MockGameDB';
+import { FeaturedGameTile } from './FeaturedGameTile';
+import { RegularGameTile } from './RegularGameTile';
 
 
-export const GameTile = ({name, path, imagePreview}) => {
+export const GameTile = (props) => {
+    const { visibilityRating } = props;
+    if(visibilityRating === VisibilityRatings.FEATURED) {
+        return <FeaturedGameTile {...props}/>
+    }
     return (
-        <div class="GameTile">
-            <a href={path}>
-                <img src={imagePreview} loading="lazy" alt={name}/>
-            </a>
-            <a href={path}>{name}</a>
-        </div>
+        <RegularGameTile {...props}/>
     )
 }

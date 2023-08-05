@@ -47,14 +47,101 @@ body {
     background: var(--black);
 }
 
+
+.Homepage .GameList .FeaturedGameTile {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    border-style: dashed;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-color: var(--link);
+
+    width: 100%;
+/* 
+    border-left: 0;
+    border-right: 0; */
+
+    padding: 50px;
+
+    background: var(--blackest);
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Homepage .GameList .FeaturedGameTile a{
+    color: var(--link);
+    text-decoration: none;
+
+    font-size: 4em;
+}
+
+
 .Homepage .GameList .GameTile a{
     color: var(--link);
     text-decoration: none;
     width: 100%;
     height: 100%;
     text-align: center;
+    flex-shrink: 1;
 }
 
+.Homepage .GameList .FeaturedGameTile img{
+    max-width: 80vw;
+    max-height: 50vh;
+    object-fit: cover;
+    image-rendering: pixelated;
+    flex-grow: 1;
+}
+
+.Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer {
+    display: flex;
+
+    color: var(--highlight);
+    width: 40%;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.Homepage .GameList .FeaturedGameTile .PlayButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.75em;
+
+    border: 3px dashed var(--highlight);
+
+    padding: 20px;
+
+    color: var(--highlight);
+    width: 40%;
+    flex-direction: column;
+}
+
+.Homepage .GameList .FeaturedGameTile .PlayButton:hover {
+
+    color: var(--blackest);
+
+    border: 3px dashed var(--blackest);
+
+    background-color: var(--highlight);
+}
+
+
+.Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer .DashedSeparator {
+    width: 100%;
+
+    max-width: 40vw;
+
+    border-bottom: 3px dashed var(--link);
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .Homepage .GameList .GameTile img{
     width: 300px;
     height: 200px;
@@ -78,6 +165,13 @@ body {
     color: var(--highlight);
     font-weight: 700;
     font-size: 1em;
+}
+
+.Homepage .NavBar .NavBarItem a{
+    color: var(--highlight);
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 .Homepage .NavBar .VerticalDivider {
