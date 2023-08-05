@@ -16,7 +16,7 @@ body {
     margin: 0;
     background: var(--blackest);
     font-family: ubuntuFont;
-    font-display: swap;
+    font-display: fallback;
 }
 
 .Homepage {
