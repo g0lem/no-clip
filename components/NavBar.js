@@ -19,7 +19,6 @@ export const NavBar = ({}) => {
             <a href="/category/casual">Casual</a>
             </div>
             <div class='VerticalDivider'/>
-            <link rel="stylesheet" href="/public/logo.css"/>
         </div>
     )
 }
