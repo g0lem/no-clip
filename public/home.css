@@ -1,4 +1,7 @@
-@import url('/public/fonts/UbuntuMono-Regular.ttf');
+@font-face {
+    font-family: ubuntuFont;
+    src: url('/public/fonts/UbuntuMono-Regular.ttf');
+}
 
 :root {
     --link: #E7AB79;
@@ -12,7 +15,7 @@ body {
     padding: 0;
     margin: 0;
     background: var(--blackest);
-    font-family: 'Ubuntu mono', sans-serif;
+    font-family: ubuntuFont;
 }
 
 .Homepage {

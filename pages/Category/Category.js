@@ -16,7 +16,6 @@ export const Category = (props) => {
         </div>
 
         </div>
-        <link rel="stylesheet" href="/public/game.css"/>
     </BasePage>
 }
 
