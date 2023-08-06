@@ -13,7 +13,6 @@ export const Category = (props) => {
         }
         <div>
             <h1>{props.category}</h1>
-            <div class="DashedSeparator"></div>
         </div>
 
         </div>

@@ -1,6 +1,7 @@
 @font-face {
     font-family: ubuntuFont;
     src: url('/public/fonts/UbuntuMono-Regular.ttf');
+    font-display: swap;
 }
 
 :root {
@@ -16,7 +17,6 @@ body {
     margin: 0;
     background: var(--blackest);
     font-family: ubuntuFont;
-    font-display: fallback;
 }
 
 .Homepage {
@@ -98,7 +98,8 @@ body {
     max-height: 50vh;
     object-fit: cover;
     image-rendering: pixelated;
-    flex-grow: 1;
+    width: 640px;
+    height: 360px;
 }
 
 .Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer {
