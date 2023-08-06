@@ -8,7 +8,6 @@ export const BasePage = ({children}) => {
     return (
         <html>
             <head>
-                <title>.no-clip</title>
                 <link rel="stylesheet" href="/public/home.css"/>
                 <link rel="stylesheet" href="/public/game.css"/>
                 <link rel="stylesheet" href="/public/logo.css"/>
