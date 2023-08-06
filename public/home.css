@@ -98,7 +98,8 @@ body {
     max-height: 50vh;
     object-fit: cover;
     image-rendering: pixelated;
-    flex-grow: 1;
+    width: 640px;
+    height: 360px;
 }
 
 .Homepage .GameList .FeaturedGameTile .FeaturedGameTileRightContainer {
