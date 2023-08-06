@@ -6,6 +6,7 @@ import { ExternalGamesDB } from '../../constants/MockGameDB';
 
 export const Home = (props) => {
     return <BasePage>
+        <title>.no-clip</title>
         <div class='GameList'>
         {
             ExternalGamesDB.map(elm=><GameTile {...elm}/>)

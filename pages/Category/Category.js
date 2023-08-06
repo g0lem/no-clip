@@ -6,6 +6,7 @@ import { ExternalGamesDB, GameCategories } from '../../constants/MockGameDB';
 
 export const Category = (props) => {
     return <BasePage>
+        <title>{props.category} | .no-clip</title>
         <div class='GameList'>
         {
             ExternalGamesDB.filter(props.gameFilterFunction).map(elm=><GameTile {...elm}/>)
