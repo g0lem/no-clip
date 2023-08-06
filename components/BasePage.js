@@ -28,6 +28,10 @@ export const BasePage = ({children}) => {
                     {children}
                 </div>  
             </body>
+
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-S3LHH1FWKH"></script>
+            <script src="public/scripts/google-analytics.js"/>
+
         </html>
 )
 }
